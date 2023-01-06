@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <!-- Limelight Font from: https://fonts.google.com/specimen/Limelight?query=Lime -->
+
+    <!-- Montserrat Font from: https://fonts.google.com/specimen/Montserrat?query=Mont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/8fe4a290b0.js" crossorigin="anonymous"></script>
+
+    <!--CSS File-->
+    <link rel="stylesheet" type="text/css" href="Profilepage1.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Navbar + Exhibition Logo-->
+    <div class="container-fluid d-flex justify-content-center">
+        <p id="logo">Exhibition 2023</p>
+        <nav class=" container-fluid navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="exhibition.html">Exhibits</a>
+                                <!-- this page would contain all the students' portraits which after clicking on 
+                          one of them leads you to that student's personal exhibition -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactpage.html">Contact Us</a>
+                                <!-- this page would contain all the contact information such as email address and 
+                          phone numbers -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+    <div id="student-info" class="container-fluid">
+        <div class="row d-flex justify-content-center align-items-center px-0">
+            <div id="student-image" class="col-6">
+                <img src="Images/Guy2.jpg" class="studentimg" alt="male-student">
+            </div>
+            <div id="student-description" class="col-6">
+                <p id="student-name">Joe Johnson</p>
+                <br>
+                <p id="project-name"><strong>Project title</strong></p>
+                <p id="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae dictum erat, a porta erat.
+                    Praesent fringilla purus tincidunt augue pellentesque vehicula. Duis est metus, fermentum ut sem
+                    at,
+                    pellentesque sagittis tortor. Donec efficitur risus nec enim lobortis aliquet. Proin sed dolor
+                    at
+                    purus volutpat ultrices a id nisl.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="images" class="container-fluid px-md-5 px-sm-4">
+        <div class="row">
+            <div class="col-4 col-images">
+                <img id="gallery" src="Images/flowers.jpg" class="image-fluid" alt="photo" width="450" height="250">
+            </div>
+            <div class="col-4 col-images">
+                <img id="gallery" src="Images/flowers.jpg" class="image-fluid" alt="photo" width="450" height="250">
+            </div>
+            <div class="col-4 col-images">
+                <img id="gallery" src="Images/flowers.jpg" class="image-fluid" alt="photo" width="450" height="250">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4 col-images">
+                <img id="gallery" src="Images/flowers.jpg" class="image-fluid" alt="photo" width="450" height="250">
+            </div>
+            <div class="col-4 col-images">
+                <img id="gallery" src="Images/flowers.jpg" class="image-fluid" alt="photo" width="450" height="250">
+            </div>
+            <div class="col-4 col-images">
+                <img id="gallery" src="Images/flowers.jpg" class="image-fluid" alt="photo" width="450" height="250">
+            </div>
+        </div>
+
+
+        <!-- Bottom Navbar + Social Media Icons -->
+        <div class="container-fluid d-flex justify-content-center">
+            <nav class=" container-fluid navbar navbar-expand-lg fixed-bottom px-0" id="navbar2">
+                <div class="container-fluid px-4 row">
+                    <div class="collapse navbar-collapse d-flex justify-content-end">
+                        <div id="copyright"
+                            class="navbar-brand d-flex col-6 justify-content-start align-items-center px-4">
+                            <p> All Rights Reserved - <span style="color: white;">
+                                    <i class="fa-regular fa-copyright"></i></span> 2023
+                            <p>
+                                <!-- this is the copyright phrase -->
+                        </div>
+                        <div class="container-fluid d-flex col-6 justify-content-end align-items-center px-0">
+                            <a class="navbar-nav" href="#">
+                                <span style="color: white;">
+                                    <i id="icons" class="fa-brands fa-facebook fa-light fa-xl"></i>
+                                    <!-- this would then be ultimately linked to the exhibition's facebook webpage -->
+                                </span>
+                            </a>
+                            <a class="navbar-nav" href="#">
+                                <span style="color: white;">
+                                    <i class="fa-brands fa-instagram fa-light fa-xl"></i>
+                                    <!-- this would then be ultimately linked to the exhibition's instagram webpage -->
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
